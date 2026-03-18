@@ -47,5 +47,5 @@ FantDeg Appen er under utvikling, og veien videre inkluderer:
 
 - Forbedret frontend UI
 - Statistikk for trafikk (AI analyse)
-- Flere kameraer
+- Flere kameraer (kystlinje osv.)
 
