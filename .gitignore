@@ -1,0 +1,33 @@
+# Node modules (backend + frontend)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (VIKTIG!)
+.env
+.env.*
+!.env.example
+
+# Build output (React/Vite)
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Optional: coverage
+coverage/

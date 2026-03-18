@@ -1,0 +1,75 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  height: 100%;
+}
+
+.sidebar {
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  background: #fafafa;
+}
+
+.sidebar h1 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.control-group {
+  margin: 16px 0;
+}
+
+.control-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.control-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.status-box,
+.info-box,
+.error-box {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.error-box {
+  border-color: #c44;
+  color: #922;
+  background: #fff5f5;
+}
+
+.map-wrapper {
+  height: 100%;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
